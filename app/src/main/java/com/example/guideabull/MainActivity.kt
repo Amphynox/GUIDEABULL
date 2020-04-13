@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         btn2 = findViewById(R.id.button2)
 //* this code makes it so that the button sends us to a different activity when clicked */
         btn1.setOnClickListener{
-            val intent = Intent(this, activity_navigation::class.java)
+            val intent = Intent(this, MapsActivity::class.java)
             startActivity(intent)
         }
 
